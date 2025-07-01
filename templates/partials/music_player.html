@@ -3,6 +3,17 @@
   <div class="scrolling-title-wrapper w-100 text-center mb-2">
     <div class="scrolling-title" id="scrolling-title">Select a song</div>
   </div>
+
+  <!-- Timeline -->
+  <div class="timeline w-100 d-flex flex-column align-items-center mt-2 px-3">
+    <input type="range" id="progress-bar" value="0" min="0" step="1">
+    <div class="d-flex justify-content-between w-100 text-white-50" style="font-size: 12px;">
+      <span id="current-time">0:00</span>
+      <span id="total-duration">0:00</span>
+    </div>
+  </div>
+  
+  <!-- Controls -->
   <div class="controls d-flex justify-content-center align-items-center gap-4">
     <button class="btn control-btn" id="backward"><i class="fas fa-backward"></i></button>
     <button class="btn control-btn" id="shuffle"><i class="fas fa-random"></i></button>
@@ -16,6 +27,7 @@
   </audio>
 </div>
 
+<!-- Styles -->
 <style>
   .music-player {
     position: fixed;
@@ -66,51 +78,80 @@
     transform: scale(1.1);
   }
 
-  @media (max-width: 576px) {
-  .music-player {
-    left: 0 !important;
-    padding: 12px 16px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .scrolling-title-wrapper {
+  .timeline {
     width: 100%;
-    margin-bottom: 8px;
-    text-align: center;
   }
 
-  .scrolling-title {
-    font-size: 14px;
-    animation-duration: 10s;
-  }
-
-  .controls {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .control-btn {
-    font-size: 14px;
-    padding: 6px 10px;
+  #progress-bar {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+    background: #9b59b6;
     border-radius: 10px;
+    outline: none;
+    cursor: pointer;
   }
-}
 
+  #progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 576px) {
+    .music-player {
+      left: 0 !important;
+      padding: 12px 16px;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .scrolling-title-wrapper {
+      width: 100%;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .scrolling-title {
+      font-size: 14px;
+      animation-duration: 10s;
+    }
+
+    .controls {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .control-btn {
+      font-size: 14px;
+      padding: 6px 10px;
+      border-radius: 10px;
+    }
+
+    #progress-bar {
+      height: 4px;
+    }
+  }
 </style>
 
+<!-- Script -->
 <script>
   const playPauseBtn = document.getElementById('play-pause');
   const bottomPlayer = document.getElementById('main-audio');
   const playPauseIcon = playPauseBtn.querySelector('i');
+  const progressBar = document.getElementById('progress-bar');
+  const currentTimeEl = document.getElementById('current-time');
+  const totalDurationEl = document.getElementById('total-duration');
 
-  function syncBigCardIcon(isPlaying) {
-    const bigCardIcon = document.querySelector('#bigCardContainer .play-btn i');
-    if (bigCardIcon) {
-      bigCardIcon.className = isPlaying ? 'bi bi-pause' : 'bi bi-play';
-    }
+  function formatTime(time) {
+    const mins = Math.floor(time / 60);
+    const secs = Math.floor(time % 60);
+    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
   }
 
   playPauseBtn.addEventListener('click', () => {
@@ -139,6 +180,29 @@
     syncBigCardIcon(false);
   });
 
+  // Timeline update
+  bottomPlayer.addEventListener('timeupdate', () => {
+    progressBar.value = bottomPlayer.currentTime;
+    currentTimeEl.textContent = formatTime(bottomPlayer.currentTime);
+  });
+
+  bottomPlayer.addEventListener('loadedmetadata', () => {
+    progressBar.max = bottomPlayer.duration;
+    totalDurationEl.textContent = formatTime(bottomPlayer.duration);
+  });
+
+  progressBar.addEventListener('input', () => {
+    bottomPlayer.currentTime = progressBar.value;
+  });
+
+  function syncBigCardIcon(isPlaying) {
+    const bigCardIcon = document.querySelector('#bigCardContainer .play-btn i');
+    if (bigCardIcon) {
+      bigCardIcon.className = isPlaying ? 'bi bi-pause' : 'bi bi-play';
+    }
+  }
+
+  // Restore music player state from localStorage
   window.addEventListener('storage', (event) => {
     if (event.key === 'musicPlayerState') {
       const state = JSON.parse(event.newValue);
