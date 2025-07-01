@@ -1,14 +1,36 @@
-<div class="navbar-top fixed-top d-flex justify-content-end align-items-start pe-4 pt-3 flex-wrap" style="background-color: #121212; z-index: 1030;">
-  <div class="search-container position-relative">
-    <form action="{{ url_for('search') }}" method="GET" class="position-relative w-100">
+<!-- ✅ Mobile Topbar with Logo + Search -->
+<div class="mobile-topbar d-md-none d-flex flex-column px-3 py-2">
+  <div class="d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-2 cursor-pointer" onclick="toggleMobileSidebar()">
+      <img src="{{ url_for('static', filename='media/favicon.jpg') }}" alt="Musiverse Favicon" style="width: 40px; height: 40px;" class="rounded-circle" />
+      <h5 class="logo-title m-0">MUSIVERSE</h5>
+    </div>
+  </div>
+
+  <!-- 🔍 Search bar -->
+  <form action="{{ url_for('search') }}" method="GET" class="mt-2 w-100">
+    <div class="search-container position-relative w-100">
       <input type="text" name="q" class="form-control futuristic-search" placeholder="Find your favorite songs..." aria-label="Search" required>
       <button type="submit" class="search-icon-btn">
         <i class="fas fa-search"></i>
       </button>
-    </form>
-  </div>
+    </div>
+  </form>
 </div>
 
+<!-- ✅ Desktop Search Bar -->
+<div class="navbar-top fixed-top d-none d-md-flex justify-content-end align-items-start pe-4 pt-3 flex-wrap" style="background-color: #121212; z-index: 1030;">
+  <form action="{{ url_for('search') }}" method="GET" class="mt-2">
+    <div class="search-container position-relative">
+      <input type="text" name="q" class="form-control futuristic-search" placeholder="Find your favorite songs..." aria-label="Search" required>
+      <button type="submit" class="search-icon-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+  </form>
+</div>
+
+<!-- ✅ CSS -->
 <style>
   body {
     background-color: #121212;
@@ -18,9 +40,15 @@
   }
 
   .main-content {
-    margin-left: 220px;
     padding: 0;
-    padding-top: 90px;
+    padding-top: 110px;
+  }
+
+  @media (min-width: 768px) {
+    .main-content {
+      margin-left: 220px;
+      padding-top: 90px;
+    }
   }
 
   .search-container {
@@ -72,13 +100,8 @@
     color: #bb86fc;
   }
 
-  /* ✅ Responsive fix */
+  /* ✅ Responsive Fix */
   @media (max-width: 576px) {
-    .navbar-top {
-      justify-content: center !important;
-      padding: 10px 16px !important;
-    }
-
     .search-container {
       width: 100% !important;
       margin-top: 6px !important;
