@@ -1,0 +1,125 @@
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+<!-- Mobile Topbar with Logo Only -->
+<div class="mobile-topbar d-md-none d-flex align-items-center justify-content-between px-3 py-2">
+  <div class="d-flex align-items-center gap-2 cursor-pointer" onclick="toggleMobileSidebar()">
+    <img src="{{ url_for('static', filename='media/favicon.jpg') }}" alt="Musiverse Favicon" style="width: 40px; height: 40px;" class="rounded-circle" />
+    <h5 class="logo-title m-0">MUSIVERSE</h5>
+  </div>
+</div>
+
+<!-- Full Sidebar (Desktop) -->
+<div class="sidebar d-none d-md-flex flex-column text-center">
+  <img src="{{ url_for('static', filename='media/favicon.jpg') }}" alt="Musiverse Favicon">
+  <h5 class="logo-title">MUSIVERSE</h5>
+  <ul class="nav flex-column mt-4">
+    <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="{{ url_for('categories') }}">Category</a></li>
+    <li class="nav-item"><a class="nav-link" href="{{ url_for('add_music') }}">Add Music</a></li>
+  </ul>
+</div>
+
+<!-- Toggleable Sidebar for Mobile -->
+<div id="mobileSidebar" class="mobile-sidebar d-md-none d-none flex-column text-center py-3">
+  <ul class="nav flex-column">
+    <li class="nav-item"><a class="nav-link" href="{{ url_for('dashboard') }}">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="{{ url_for('categories') }}">Category</a></li>
+    <li class="nav-item"><a class="nav-link" href="{{ url_for('add_music') }}">Add Music</a></li>
+  </ul>
+</div>
+
+<!-- Styling -->
+<style>
+  body {
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .logo-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #bb86fc, #8e44ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+
+  .sidebar {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1e1e2f;
+    padding: 20px;
+    z-index: 1040;
+  }
+
+  .sidebar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .sidebar .nav-link,
+  .mobile-sidebar .nav-link {
+    color: #bbb;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .sidebar .nav-link:hover,
+  .mobile-sidebar .nav-link:hover {
+    color: #9b59b6;
+  }
+
+  /* Mobile Top Bar */
+  .mobile-topbar {
+    background-color: #1e1e2f;
+    height: 60px;
+    z-index: 1050;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  /* Mobile Sidebar Menu */
+  .mobile-sidebar {
+    background-color: #1e1e2f;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    z-index: 1045;
+    border-top: 1px solid #333;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    .mobile-topbar,
+    .mobile-sidebar {
+      display: none !important;
+    }
+
+    .main-content {
+      margin-left: 220px;
+    }
+  }
+</style>
+
+<!-- Script -->
+<script>
+  function toggleMobileSidebar() {
+    const sidebar = document.getElementById("mobileSidebar");
+    sidebar.classList.toggle("d-none");
+  }
+</script>

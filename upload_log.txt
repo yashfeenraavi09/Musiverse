@@ -1,0 +1,325 @@
+AUDIO: classical songs/Ed Sheeran - Perfect (Official Music Video).m4a
+AUDIO: classical songs/One Direction - Night Changes.m4a
+AUDIO: classical songs/One Direction - What Makes You Beautiful (Official Video).m4a
+AUDIO: classical songs/Stephen Sanchez - Until I Found You (Official Video).m4a
+AUDIO: classical songs/Tere Bina - Guru 320 Kbps.mp3
+AUDIO: classical songs/Tum Tak - Raanjhanaa 320 Kbps.mp3
+AUDIO: English songs/Camila Cabello - GODSPEED (Official Music Video).m4a
+AUDIO: English songs/Closer-(PagalSongs.Com.IN).mp3
+AUDIO: English songs/Let Me Love You_320(PagalWorld.com.so).mp3
+AUDIO: English songs/Love-Story(PagalNew.Com.Se).mp3
+AUDIO: English songs/Senorita-Ringtone---Shawn-Mendes-Version(PagalWorld).mp3
+AUDIO: English songs/Shape of You-(PagalSongs.Com.IN).mp3
+AUDIO: English songs/Taylor Swift - Lover (Official Music Video).m4a
+AUDIO: English songs/Taylor Swift - Paper Rings (Official Audio).m4a
+AUDIO: English songs/You-Belong-With-Me_320(PagalWorld).mp3
+AUDIO: Hindi songs/Dil Dhadakne Do - Zindagi Na Milegi Dobara 320 Kbps.mp3
+AUDIO: Hindi songs/Dil Diyan Gallan - Tiger Zinda Hai 320 Kbps.mp3
+AUDIO: Hindi songs/Gallan Goodiyaan - Dil Dhadakne Do 320 Kbps.mp3
+AUDIO: Hindi songs/Kala Chashma.mp3
+AUDIO: Hindi songs/Kar Gayi Chull - Kapoor And Sons (Since 1921) 320 Kbps.mp3
+AUDIO: Hindi songs/London Thumakda - Queen 320 Kbps.mp3
+AUDIO: Hindi songs/Lungi-Dance-Yo-Yo-Honey-Singh.m4a
+AUDIO: Hindi songs/O Mahi O Mahi_320(PagalWorld.com.sb).mp3
+AUDIO: Hindi songs/O-Zaalima-o-Zaalima(PagalWorlld.Com).mp3
+AUDIO: Hindi songs/Pee Loon Hoto Ki Sargam - Once Upon A Time In Mumbaai 320 Kbps.mp3
+AUDIO: Hindi songs/Sang-Rahiyo(Pagal-World.Com.In).mp3
+AUDIO: Hindi songs/The Disco Song - Student Of The Year 320 Kbps.mp3
+AUDIO: Hindi songs/Ve Kamleya - Rocky Aur Rani Kii Prem Kahaani 320 Kbps.mp3
+ERROR: classical songs/Deewani%20Mastani%20-%20Bajirao%20Mastani%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/Ed%20Sheeran%20-%20Perfect%20%28Official%20Music%20Video%29.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/Manwa%20Laage%20-%20Happy%20New%20Year%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/One%20Direction%20-%20Night%20Changes.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/One%20Direction%20-%20What%20Makes%20You%20Beautiful%20%28Official%20Video%29.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/Stephen%20Sanchez%20-%20Until%20I%20Found%20You%20%28Official%20Video%29.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/Tere%20Bina%20-%20Guru%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: classical songs/Tum%20Tak%20-%20Raanjhanaa%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Camila%20Cabello%20-%20GODSPEED%20%28Official%20Music%20Video%29.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Closer-%28PagalSongs.Com.IN%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Let%20Me%20Love%20You_320%28PagalWorld.com.so%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Love-Story%28PagalNew.Com.Se%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Senorita-Ringtone---Shawn-Mendes-Version%28PagalWorld%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Shape%20of%20You-%28PagalSongs.Com.IN%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Taylor%20Swift%20-%20Lover%20%28Official%20Music%20Video%29.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/Taylor%20Swift%20-%20Paper%20Rings%20%28Official%20Audio%29.m4a - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: English songs/You-Belong-With-Me_320%28PagalWorld%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Dil%20Dhadakne%20Do%20-%20Zindagi%20Na%20Milegi%20Dobara%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Dil%20Diyan%20Gallan%20-%20Tiger%20Zinda%20Hai%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Gallan%20Goodiyaan%20-%20Dil%20Dhadakne%20Do%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Kala%20Chashma.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Kar%20Gayi%20Chull%20-%20Kapoor%20And%20Sons%20%28Since%201921%29%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/London%20Thumakda%20-%20Queen%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/O%20Mahi%20O%20Mahi_320%28PagalWorld.com.sb%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/O-Zaalima-o-Zaalima%28PagalWorlld.Com%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Pee%20Loon%20Hoto%20Ki%20Sargam%20-%20Once%20Upon%20A%20Time%20In%20Mumbaai%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Sang-Rahiyo%28Pagal-World.Com.In%29.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/The%20Disco%20Song%20-%20Student%20Of%20The%20Year%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+ERROR: Hindi songs/Ve%20Kamleya%20-%20Rocky%20Aur%20Rani%20Kii%20Prem%20Kahaani%20320%20Kbps.mp3 - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+AUDIO: korean songs/Be%20Your%20Light.m4a
+AUDIO: korean songs/Cant%20Get%20Over%20You.m4a
+AUDIO: korean songs/CHANYEOL%2C%20Punch%20-%20Stay%20With%20Me%20Lyrics%20%28easy%20lyrics%29.m4a
+AUDIO: korean songs/Cupid.m4a
+AUDIO: korean songs/Forgetting%20You.m4a
+AUDIO: korean songs/here%20always.m4a
+AUDIO: korean songs/I%20am%20Missing%20You.m4a
+AUDIO: korean songs/Last%20Chance.m4a
+AUDIO: korean songs/Love%20You%20With%20All%20My%20Heart.m4a
+AUDIO: korean songs/Reasons%20of%20my%20smiles.m4a
+AUDIO: korean songs/With%20You.m4a
+AUDIO: Motivational songs/Besabriyaan%20-%20M.S.%20Dhoni%20-%20The%20Untold%20Story%20320%20Kbps.mp3
+AUDIO: Motivational songs/Ek%20Zindagi%20-%20Angrezi%20Medium%20320%20Kbps.mp3
+AUDIO: Motivational songs/Give%20Me%20Some%20Sunshine%20-%20%28Raag.Fm%29.mp3
+AUDIO: Motivational songs/Khol%20De%20Par%20-%20Hichki%20320%20Kbps.mp3
+AUDIO: Motivational songs/Love%20You%20Zindagi%20-%20Dear%20Zindagi%20320%20Kbps.mp3
+AUDIO: Motivational songs/Mera%20Safar%20Iqlipse%20Nova%20320%20Kbps.mp3
+AUDIO: pop songs/Aayi%20Nai%20-%20Stree%202%20320%20Kbps.mp3
+AUDIO: pop songs/DJ%20Snake%20-%20Taki%20Taki%20ft.%20Selena%20Gomez%2C%20Ozuna%2C%20Cardi%20B%20%28Official%20Music%20Video%29.m4a
+AUDIO: pop songs/Naina%20-%20Crew%20320%20Kbps.mp3
+AUDIO: pop songs/Salaam-E-Ishq.mp3
+AUDIO: pop songs/Shape%20of%20You-%28PagalSongs.Com.IN%29.mp3
+AUDIO: pop songs/Sia%20-%20Cheap%20Thrills%20%28Lyrics%29%20ft.%20Sean%20Paul.m4a
+AUDIO: pop songs/Sorry_320%28PagalWorld.com.so%29.mp3
+AUDIO: pop songs/Summer%20High%20-%20Ap%20Dhillon%20320%20Kbps.mp3
+AUDIO: pop songs/Tauba%20Tauba%20-%20Bad%20Newz%20320%20Kbps.mp3
+AUDIO: pop songs/Taylor%20Swift%20-%20Cruel%20Summer%20%28Official%20Audio%29.m4a
+AUDIO: pop songs/The%20Kid%20LAROI%2C%20Justin%20Bieber%20-%20STAY%20%28Official%20Video%29.m4a
+AUDIO: Punjabi songs/Excuses_320%28PagalWorld.com.sb%29.mp3.crdownload.mp3
+AUDIO: Punjabi songs/Ikko%20-%20Mikke%20-%20Title%20Track%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Jhaanjar%20-%20B%20Praak%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Maiyya%20Mainu%20-%20Lyrical%20_%20Jersey%20_%20Shahid%20Kapoor%2C%20Mrunal%20Thakur_%20Sachet-Parampara_%20Shellee%20_%20Gowtam%20T.m4a
+AUDIO: Punjabi songs/Mann%20Bharryaa%202.0%20-%20Shershaah%20320%20Kbps.mp3
+AUDIO: Punjabi songs/One%20Love%20-%20Shubh%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Raataan%20Lambiyan%20-%20Shershaah%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Ranjha%20-%20Shershaah%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Softly%20-%20Making%20Memories%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Suniyan%20Suniyan%20-%20Juss%20320%20Kbps.mp3
+AUDIO: Punjabi songs/Teri%20Aa%20Jatta%20-%20Guntaj_320%28MyMp3Song%29.mp3
+AUDIO: Punjabi songs/Ve%20Haaniyaan%20-%20Avvy%20Sra%20320%20Kbps.mp3
+AUDIO: romantic songs/Aadat%20-%20Kalyug%20320%20Kbps.mp3
+AUDIO: romantic songs/Aao%20Milo%20Chalo%20-%20Jab%20We%20Met%20320%20Kbps.mp3
+AUDIO: romantic songs/Be%20Intehaan%20-%20Lyrical%20Video%20_%20Race%202%20_%20Saif%20Ali%20Khan%20%26%20Deepika%20Padukone%20_%20Atif%20Aslam%20_%20Pritam%20_%20Tips.m4a
+AUDIO: romantic songs/Beete%20Lamhein%20-%20The%20Train%20320%20Kbps.mp3
+AUDIO: romantic songs/Bhula%20Dena%20-%20Aashiqui%202%20320%20Kbps.mp3
+AUDIO: romantic songs/Chahun%20Main%20Ya%20Naa%20-%20Aashiqui%202%20320%20Kbps.mp3
+AUDIO: romantic songs/Deewana%20Kar%20Raha%20Hai%20-%20Raaz%203%20320%20Kbps.mp3
+AUDIO: romantic songs/Dil%20Ibaadat%20-%20Tum%20Mile%20320%20Kbps.mp3
+AUDIO: romantic songs/Hai%20Dil%20Ye%20Mera%20-%20Hate%20Story%202%20320%20Kbps.mp3
+AUDIO: romantic songs/Hale%20Dil%20-%20Murder%202%20320%20Kbps.mp3
+AUDIO: romantic songs/Hasi%20%28Male%20Version%29%20-%20Hamari%20Adhuri%20Kahani%20320%20Kbps.mp3
+AUDIO: romantic songs/Jaavedaan%20Hai%20Lyrical%20Video%20_%201920%20Evil%20Returns%20_%20KK%2C%20Suzanne%20D_Mello.m4a
+AUDIO: romantic songs/Jannatein%20Kahan%20%28Power%20Ballad%29%20-%20Jannat%202%20320%20Kbps%20%281%29.mp3
+AUDIO: romantic songs/Jee%20Le%20Zaraa%20-%20Talaash%20320%20Kbps.mp3
+AUDIO: romantic songs/Kuchh%20Is%20Tarah%20-%208%20X%2010%20Tasveer%20320%20Kbps.mp3
+AUDIO: romantic songs/Lo%20Maan%20Liya%20-%20Raaz%20Reboot%20320%20Kbps.mp3
+AUDIO: romantic songs/Maahi%20-%20RAAZ%20-%20The%20Mystery%20Continues%20320%20Kbps.mp3
+AUDIO: romantic songs/Maula%20Mere%20Maula%20-%20Anwar%20320%20Kbps.mp3
+AUDIO: romantic songs/Pehli%20Nazar%20Mein%20-%20Race%20320%20Kbps.mp3
+AUDIO: romantic songs/Piya%20Aaye%20Na%20-%20Aashiqui%202%20320%20Kbps.mp3
+AUDIO: romantic songs/Tera%20Mera%20Rishta%20-%20Jalebi%20320%20Kbps.mp3
+AUDIO: romantic songs/Tujhe%20Sochta%20Hoon%20-%20Jannat%202%20320%20Kbps.mp3
+AUDIO: romantic songs/Tum%20Se%20Hi%20-%20Jab%20We%20Met%20320%20Kbps.mp3
+AUDIO: romantic songs/Ye%20Ishq%20Hai%20-%20Jab%20We%20Met%20320%20Kbps.mp3
+AUDIO: romantic songs/Yeh-Raaten-Yeh-Mausam-Sanam-Puri-Simran-Sehgal.m4a
+AUDIO: romantic songs/Zara%20Sa%20-%20Jannat%20320%20Kbps%20%281%29.mp3
+ERROR: Classical/deewani_mastani.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/manwa_laage.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/One_Direction_-_Night_Changes_Single_Cover.png - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/Perfect.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/Saudebaazi%28Encore%29.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/tere_bina.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/tum_tak.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/Until-I-Found-You-Em-Beihold-Version-English.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/whatmakesyoubeautiful.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Closer.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Godspeed.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/let_me_love_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/lover.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/love_story.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Paper_rings.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Se%C3%B1orita.jpg - {'statusCode': 400, 'error': InvalidKey, 'message': Invalid key: English/Señorita.jpg}
+ERROR: English/shape_of_you.png - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/you_belong_with_me.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Baar_baar_dekho.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Dil_dhadakne_do.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Dil_diyan_gallan.jpg - The read operation timed out
+ERROR: Hindi/Gallan_goodiyan.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Kala_chashma.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Kar_gayi_chull.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/London_thumakda.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Lungi_dance.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/O_maahi.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Pee_loon.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/sang_rahiyo.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/The_disco_song.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Ve_kamleya.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/zaalima.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/beyourlight.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Cant_get_over_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/cupid.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Forgetting_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Here_always.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/I_m_missing_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Last_chance.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Love_you_with_all_my_heart.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Reasons_of_my_smiles.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Stay_with_me.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/With_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/Besabriyaan.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/Ek_zindagi.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/give_me_some_sunshine.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/khol_de_par.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/love_you_zindagi.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/Mera_safar.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/128Salaam-E-Ishq%20-%20Salaam-E-Ishq.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/aayi-nai-stree-2.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/cheapthrills.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/cruel_summer.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/deewani_mastani.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/manwa_laage.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/One_Direction_-_Night_Changes_Single_Cover.png - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/Perfect.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/Saudebaazi%28Encore%29.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/tere_bina.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/tum_tak.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/Until-I-Found-You-Em-Beihold-Version-English.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Classical/whatmakesyoubeautiful.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Closer.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Godspeed.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/let_me_love_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/lover.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/love_story.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Paper_rings.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/Se%C3%B1orita.jpg - {'statusCode': 400, 'error': InvalidKey, 'message': Invalid key: English/Señorita.jpg}
+ERROR: English/shape_of_you.png - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: English/you_belong_with_me.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Baar_baar_dekho.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Dil_dhadakne_do.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Dil_diyan_gallan.jpg - The read operation timed out
+ERROR: Hindi/Gallan_goodiyan.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Kala_chashma.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Kar_gayi_chull.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/London_thumakda.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Lungi_dance.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/O_maahi.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Pee_loon.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/sang_rahiyo.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/The_disco_song.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/Ve_kamleya.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Hindi/zaalima.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/beyourlight.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Cant_get_over_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/cupid.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Forgetting_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Here_always.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/I_m_missing_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Last_chance.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Love_you_with_all_my_heart.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Reasons_of_my_smiles.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/Stay_with_me.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Korean/With_you.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/Besabriyaan.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/Ek_zindagi.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/give_me_some_sunshine.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/khol_de_par.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/love_you_zindagi.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Motivational/Mera_safar.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/128Salaam-E-Ishq%20-%20Salaam-E-Ishq.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/aayi-nai-stree-2.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/cheapthrills.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+ERROR: Pop/cruel_summer.jpg - {'statusCode': 403, 'error': Unauthorized, 'message': new row violates row-level security policy}
+IMAGE: Classical/deewani_mastani.jpg
+IMAGE: Classical/manwa_laage.jpg
+IMAGE: Classical/One_Direction_-_Night_Changes_Single_Cover.png
+IMAGE: Classical/Perfect.jpg
+IMAGE: Classical/Saudebaazi%28Encore%29.jpg
+IMAGE: Classical/tere_bina.jpg
+IMAGE: Classical/tum_tak.jpg
+IMAGE: Classical/Until-I-Found-You-Em-Beihold-Version-English.jpg
+IMAGE: Classical/whatmakesyoubeautiful.jpg
+IMAGE: English/Closer.jpg
+IMAGE: English/Godspeed.jpg
+IMAGE: English/let_me_love_you.jpg
+IMAGE: English/lover.jpg
+IMAGE: English/love_story.jpg
+IMAGE: English/Paper_rings.jpg
+ERROR: English/Se%C3%B1orita.jpg - {'statusCode': 400, 'error': InvalidKey, 'message': Invalid key: English/Señorita.jpg}
+IMAGE: English/shape_of_you.png
+IMAGE: English/you_belong_with_me.jpg
+IMAGE: Hindi/Baar_baar_dekho.jpg
+IMAGE: Hindi/Dil_dhadakne_do.jpg
+IMAGE: Hindi/Dil_diyan_gallan.jpg
+IMAGE: Hindi/Gallan_goodiyan.jpg
+IMAGE: Hindi/Kala_chashma.jpg
+IMAGE: Hindi/Kar_gayi_chull.jpg
+IMAGE: Hindi/London_thumakda.jpg
+IMAGE: Hindi/Lungi_dance.jpg
+IMAGE: Hindi/O_maahi.jpg
+IMAGE: Hindi/Pee_loon.jpg
+IMAGE: Hindi/sang_rahiyo.jpg
+IMAGE: Hindi/The_disco_song.jpg
+IMAGE: Hindi/Ve_kamleya.jpg
+IMAGE: Hindi/zaalima.jpg
+IMAGE: Korean/beyourlight.jpg
+IMAGE: Korean/Cant_get_over_you.jpg
+IMAGE: Korean/cupid.jpg
+IMAGE: Korean/Forgetting_you.jpg
+IMAGE: Korean/Here_always.jpg
+IMAGE: Korean/I_m_missing_you.jpg
+IMAGE: Korean/Last_chance.jpg
+IMAGE: Korean/Love_you_with_all_my_heart.jpg
+IMAGE: Korean/Reasons_of_my_smiles.jpg
+IMAGE: Korean/Stay_with_me.jpg
+IMAGE: Korean/With_you.jpg
+IMAGE: Motivational/Besabriyaan.jpg
+IMAGE: Motivational/Ek_zindagi.jpg
+IMAGE: Motivational/give_me_some_sunshine.jpg
+IMAGE: Motivational/khol_de_par.jpg
+IMAGE: Motivational/love_you_zindagi.jpg
+IMAGE: Motivational/Mera_safar.jpg
+IMAGE: Pop/128Salaam-E-Ishq%20-%20Salaam-E-Ishq.jpg
+IMAGE: Pop/aayi-nai-stree-2.jpg
+IMAGE: Pop/cheapthrills.jpg
+IMAGE: Pop/cruel_summer.jpg
+IMAGE: Pop/Naina-From-Crew-Hindi-2024.jpg
+IMAGE: Pop/shape_of_you.png
+IMAGE: Pop/sorry_justin.jpg
+IMAGE: Pop/Stay-English-2021.jpg
+IMAGE: Pop/Summer-High-English.jpg
+IMAGE: Pop/Taki-Taki-English.jpg
+IMAGE: Pop/tauba-tauba.jpg
+IMAGE: Punjabi/Excuses.jpg
+IMAGE: Punjabi/ikko_mikke.jpg
+IMAGE: Punjabi/Jhaanjar.jpg
+IMAGE: Punjabi/maiyya_mainu.jpg
+IMAGE: Punjabi/mann_bhareya.jpg
+IMAGE: Punjabi/One_love.jpg
+IMAGE: Punjabi/Raatan_lambiyan.jpg
+IMAGE: Punjabi/ranjha.jpg
+IMAGE: Punjabi/Softly.jpg
+IMAGE: Punjabi/suniyan_suniyan.jpg
+IMAGE: Punjabi/teri_aa_jatta.jpg
+IMAGE: Punjabi/Ve_haaniyan.jpg
+IMAGE: Romantic/Aadat.jpg
+IMAGE: Romantic/Aao_milo_chalein.jpg
+IMAGE: Romantic/Beete_Lamhein.jpg
+IMAGE: Romantic/Be_intehaan.jpg
+IMAGE: Romantic/Deewana_kar_raha_hai.jpg
+IMAGE: Romantic/dil_ibadat.jpg
+IMAGE: Romantic/Hai_dil_ye_mera.jpg
+IMAGE: Romantic/Hale_dil.jpg
+IMAGE: Romantic/Hasi.jpg
+IMAGE: Romantic/Jaavedan_Hai.jpg
+IMAGE: Romantic/Jannatein_kaha.jpg
+IMAGE: Romantic/Jee_le_zara.jpg
+IMAGE: Romantic/kuch_is_tarahh.jpg
+IMAGE: Romantic/lo_maan_liya.jpg
+IMAGE: Romantic/Maahi.jpg
+IMAGE: Romantic/Maula_mere_maula.jpg
+IMAGE: Romantic/pehli_nazar_mein.jpg
+IMAGE: Romantic/tera_mera_rishta.jpg
+IMAGE: Romantic/Tum_se_hi.jpg
+IMAGE: Romantic/ye_raatein_ye_mausam.jpg
+IMAGE: Romantic/zara_sa.jpg
+ERROR: Classical/Saudebaazi%28Encore%29.jpg - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
+IMAGE: English/Senorita.jpg
+ERROR: Pop/128Salaam-E-Ishq%20-%20Salaam-E-Ishq.jpg - {'statusCode': 409, 'error': Duplicate, 'message': The resource already exists}
